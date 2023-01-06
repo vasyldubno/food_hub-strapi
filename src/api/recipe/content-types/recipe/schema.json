@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "singularName": "recipe",
+    "pluralName": "recipes",
+    "displayName": "Recipe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ingredients": {
+      "type": "richtext"
+    },
+    "steps": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "string"
+    },
+    "yields": {
+      "type": "string"
+    },
+    "prep_time": {
+      "type": "string"
+    },
+    "total_time": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "pizzas",
+        "sweets",
+        "drinks",
+        "burgers"
+      ]
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
