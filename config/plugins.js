@@ -33,7 +33,7 @@ module.exports = ({ env }) => ({
       apiToken: "bRBaEUbtqNTPJdYtU4bNDoKq",
       appFilter: "food-hub-strapi",
       teamFilter: "your-team-id-on-vercel",
-      roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
+      roles: ["strapi-super-admin", "strapi-editor", "strapi-author"]
     }
   }
 });
